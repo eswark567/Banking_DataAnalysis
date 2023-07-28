@@ -1,0 +1,25 @@
+1. Print credit card transactions with sum of transaction_amount on all Fridays and
+sum of transaction_amount on all other days.
+2. Show the details of credit cards along with the aggregate transaction amount
+during holidays and non holidays.
+3. Generate a report to Send Ad-hoc holiday greetings - “Happy Holiday” for all
+transactions occurred during Holidays in 3rd month.
+4. Calculate the Bank accrued interest with respect to their RECURRING DEPOSITS
+for any deposits older than 30 days .
+Note: Accrued interest calculation = transaction_amount * interest_rate
+Note: use CURRENT_DATE()
+5. Display the Savings Account number whose corresponding Credit cards and
+AddonCredit card transactions have occured more than one time
+6. Display the Savings Account number whose corresponding AddonCredit card
+transactions have occured atleast once.
+PRE-requisite ( The below record is needed for the next two questions.
+If you had already added above , ignore this )
+-- INSERT INTO BANK_CUSTOMER_EXPORT VALUES ('123008',"Robin", "3005-1,Heathrow",
+"NY" , "1897614000");
+7. Print the customer_id and length of customer_id using Natural join on
+Tables :bank_customer and bank_customer_export
+Note: Do not use table alias to refer to column names.
+8. Print customer_id, customer_name and other common columns from both the
+Tables : bank_customer & bank_customer_export without missing any matching
+customer_id key column records.
+Note: refer datatype conversion if found any missing record
